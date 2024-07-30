@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+#gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo {
+  position: relative;
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.photo img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+
+
